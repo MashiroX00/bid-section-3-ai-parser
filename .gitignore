@@ -1,0 +1,15 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+.env
+/output_jsons/*
+/input_pdfs/*
+batch_input_filtered.jsonl
+current_batch_id.txt
