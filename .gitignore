@@ -13,3 +13,4 @@ wheels/
 /input_pdfs/*
 batch_input_filtered.jsonl
 current_batch_id.txt
+batch_input_pg.jsonl

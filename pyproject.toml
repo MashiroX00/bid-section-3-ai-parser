@@ -10,6 +10,9 @@ dependencies = [
     "google-genai>=1.57.0",
     "openai>=2.15.0",
     "pdfplumber>=0.11.9",
+    "psycopg>=3.3.2",
+    "psycopg-binary>=3.3.2",
+    "psycopg2>=2.9.11",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
 ]
