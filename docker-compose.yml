@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    container_name: tor_viewer_app
+    ports:
+      - "4005:8501"
+    env_file:
+      - .env
+    networks:
+      - app_network
+networks:
+  app_network:

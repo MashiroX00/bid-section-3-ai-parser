@@ -59,13 +59,15 @@ uv sync
 
 ## How to Run
 
-Run the script using `uv run`:
+### 1. CLI Tool (Extraction & Processing)
+
+Run the main processing script using `uv run`:
 
 ```bash
 uv run main.py
 ```
 
-### Main Menu Options
+#### Main Menu Options
 
 The script provides an interactive CLI with three modes:
 
@@ -84,6 +86,19 @@ The script provides an interactive CLI with three modes:
     -   Combines both steps.
     -   Submits the job and enters a loop (polling every 2 minutes).
     -   Automatically downloads and saves results when the job finishes.
+
+### 2. Web Viewer (Streamlit App)
+
+To view the extracted data in a user-friendly web interface:
+
+```bash
+uv run streamlit run app.py
+```
+
+This will launch a web browser where you can:
+- Select a processed Project ID.
+- View structured data (Legal Entity, Financial Evidence, etc.) in organized tabs.
+- See the raw JSON data for debugging.
 
 ## Database Schema
 
